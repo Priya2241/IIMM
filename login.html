@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/bootstrap.bundle.js"></script>
+
+  <style>
+    * {
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .hr {
+      border: 0;
+      background-color: black;
+      height: 1px;
+      opacity: 1;
+    }
+
+    .p {
+      justify-content: center;
+    }
+  </style>
+</head>
+<body style="font-family: 'Poppins', sans-serif;">
+  <!-- outer start -->
+  <div class="container-fluid">
+    <!-- top header start -->
+    <div class="row bg-primary text-light fw-semibold text-center py-2">
+      <div class="col-sm-4 ">Welcome to IIMM Ayodhya</div>
+      <div class="col-sm-4"></div>
+      <div class="col-sm-4 ">Home | IIMM Branches | AICTE Corner</div>
+    </div>
+    <!--top header end  -->
+    <!-- header start -->
+    <div class="row py-2 align-items-center">
+      <div class="col-sm-2 text-end">
+        <img src="images/Logo-IIMM-1.png" height="110" alt="">
+      </div>
+      <div class="col-sm-3 fw-semibold">
+        <h1>IIMM, Ayodhya</h1>
+        <h6>Indian Institute of Materials Management</h6>
+      </div>
+      <div class="col-sm-2">
+        <img src="images/g20-logo.png" height="65" alt="">
+      </div>
+      <div class="col-sm-2">
+        <button class="btn border border-dark"><i class="fa-solid fa-award"></i>
+         <small>An Institute of Eminence</small> </button>
+      </div>
+      <div class="col-sm-3">
+        <span class="fw-semibold"><i class="fa-solid fa-phone fa-shake"></i> Call US : +91 9415025623</span><br />
+        <span class="fw-semibold"><i class="fa-regular fa-envelope fa-bounce"></i> Mail US :
+          iimmayodhya@gmail.com</span>
+      </div>
+    </div>
+
+    <!-- header end -->
+    <!-- navbar start -->
+    <div class="row">
+      <div class="col-sm-12 bg-primary">
+        <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+          <div class="container-fluid bg-primary">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active text-light fw-bold" aria-current="page" href="index.html">Home |</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active text-light fw-bold" aria-current="page" href="register.html">Registration |</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active text-light fw-bold" aria-current="page" href="login.html">Login |</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active text-light fw-bold" aria-current="page" href="about.html">About Us |</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active text-light fw-bold" aria-current="page" href="contact.html">Contact Us |</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active text-light fw-bold" aria-current="page" href="#">MMR |</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active text-light fw-bold" aria-current="page" href="#">Useful Links |</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!-- navbar end -->
+      <!-- form start -->
+   <div class="row my-5">
+    <div class="col-sm-9 mx-auto  p-4 rounded-4 shadow-lg">
+        <div class="row">
+        <div class="col-sm-6 my-5">
+                <img src="images/login1.png" alt="" class="img-fluid">
+            </div> 
+            <div class="col-sm-6 my-auto">
+                <h2 class="text-center">Sign <span class="text-primary">In</span></h2>
+                <p class="text-center">Sign in to manage all your device</p>
+                <form class="row">
+                    <div class="form-floating">
+                        <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                            <option selected>select </option>
+                            <option value="1">Admin</option>
+                            <option value="2">User</option>
+                            <option value="3">Three</option>
+                          </select>
+                    </div>
+                    <div class="form-floating">
+                  
+                        <input type="email" name="" id="email" class="form-control w-100" placeholder="Enter your name">
+                        <label for="email" class="ps-4"> Enter your Email address</label>
+                    </div>
+                    <div class="form-floating mt-4">
+                        
+                      <input type="password" name="" id="pass" class="form-control" placeholder="Enter your name">
+                      <label for="pass" class="ps-4"> Enter password</label>
+                  </div>
+                  
+                    <div class="form-check mt-4 ps-5">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label " for="flexCheckChecked">
+                          Remember me
+                        </label>
+                        <a href="#" class=" text-decoration-none text-dark" style="margin-left: 250px;">Forget password?</a>
+                      </div>
+                 
+                    <div class="col-md-12 mt-4">
+                        <button type="submit" class="btn btn-outline-primary rounded-pill w-100">Sign in</button>
+                       
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+   </div>
+    <!-- form end -->
+    <!-- footer start -->
+    <div class="row bg-primary text-light fw-semibold py-5">
+      <div class="col-sm-11 mx-auto">
+        <div class="row">
+          <div class="col-sm-4 d-flex">
+            <i class="fa-solid fa-location-dot fs-1 px-2"></i>
+            <div>
+              <h5> Find us</h5>
+              <p>
+                Dev Nagar Colony, Raibareli Road
+                (Near Naveen Galla Mandi), Ayodhya (Faizabad) - 224001
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-4 d-flex">
+            <i class="fa-solid fa-phone fs-1 px-2"></i>
+            <div>
+              <h5>Call us</h5>
+              <p class="my-0">+91 6674387998</p>
+              <p>+91 6732238797</p>
+            </div>
+          </div>
+          <div class="col-sm-4 d-flex">
+            <i class="fa-regular fa-envelope-open fs-1 px-2"></i>
+            <div>
+              <h5>Mail us : </h5>
+              <p>info@iimmayodhya.org<br>
+                iimmayodhya@gmail.com</p>
+            </div>
+          </div>
+          <hr class="hr">
+          <div class="row">
+            <div class="col-sm-4">
+              <h4>Welcome To IIMM</h4>
+              <hr>
+              <p>IIMM is dedicated to the promotion of the profession of Materials Management and with its multifarious
+                activities, including EDP, seminars, workshops, in-house training programs and consultancy assignment.
+              </p>
+              <h5>Follow Us</h5>
+              <div>
+                <i class="fa-brands fa-facebook bg-secondary p-3 mx-2 rounded-circle"></i>
+                <i class="fa-brands fa-square-twitter bg-info p-3 mx-2 rounded-circle"></i>
+                <i class="fa-brands fa-google bg-danger p-3 mx-2 rounded-circle "></i>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <h5>Useful Links</h5>
+              <div class="row">
+                <div class="col-sm-6 mt-3">
+                  <ul>
+                    <li class="list-unstyled text-decoration-none">
+                      <a href="" class="text-light">Home</a>
+                    </li>
+                    <li class="list-unstyled">
+                      <a href="" class="text-light">Services</a>
+                    </li>
+                    <li class="list-unstyled">
+                      <a href="" class=" text-light">Contact</a>
+                    </li>
+                    <li class="list-unstyled">
+                      <a href="" class="text-light">Our Services</a>
+                    </li>
+                    <li class="list-unstyled">
+                      <a href="" class=" text-light">Contact US</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-sm-6 mt-3">
+                  <ul>
+                    <li class="list-unstyled">
+                      <a href="" class=" text-light">Home</a>
+                    </li>
+                    <li class="list-unstyled">
+                      <a href="" class=" text-light">Services</a>
+                    </li>
+                    <li class="list-unstyled">
+                      <a href="" class=" text-light">Contact</a>
+                    </li>
+                    <li class="list-unstyled">
+                      <a href="" class="text-light">Our Services</a>
+                    </li>
+                    <li class="list-unstyled">
+                      <a href="" class=" text-light">Contact US</a>
+                    </li>
+                  </ul>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <h5 class="ps-3">Subscribe</h5>
+              <p class="small">Don’t miss to subscribe to our new feeds, kindly fill
+                the <br>form below.</p>
+              <div class="d-flex">
+                <input class="form-control ps-5 py-3 rounded-0" placeholder="Email Address" type="text">
+                <button class="btn btn-danger rounded-0"><i class="fa-brands fa-telegram"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col-sm-6">
+              <p>© Copyright 2024 Designed & Developed By | Softpro India Computer Technologies (P) Ltd.</p>
+
+            </div>
+            <div class="col-sm-6 text-end">
+              <a href="" class="text-light mx-2">Home</a>
+              <a href="" class="text-light mx-2">Terms</a>
+              <a href="" class="text-light mx-2">Privacy</a>
+              <a href="" class="text-light mx-2">Policy</a>
+              <a href="" class="text-light mx-2">Contact</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- footer end -->
+    </div>
+    <!-- outer end -->
+</body>
+</html>

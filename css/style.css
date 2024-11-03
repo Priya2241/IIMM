@@ -1,0 +1,22 @@
+#about
+{
+    height: 380px;
+    background-image: url('../images/about.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-position-x: right;
+}
+#about .col-sm-12
+{
+    background-color:  rgba(177, 177, 209, 0.5);
+}
+.box
+{
+    height: 200px;
+    width: 340px;
+    /* border: 1px solid black; */
+    float: left;
+    margin-left: 50px;
+    margin-top: 20px;
+}
